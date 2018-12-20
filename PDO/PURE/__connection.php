@@ -5,18 +5,18 @@
 *	@version 1.0.0
 *	
 */
-$__HOSTNAME = 'localhost';
-$__DATABASE = 'pdo';
-$__USERNAME = 'emiga';
-$__PASSWORD = 'emiga';
+$__HOSTNAME = '';
+$__DATABASE = '';
+$__USERNAME = '';
+$__PASSWORD = '';
 /**
 * 	@example $__CHARSET=utf8mb4
 */
-$__CHARSET  = 'utf8mb4'; 
+$__CHARSET  = ''; 
 /**
 * 	@example $_COLLATE=utf8mb4_unicode_ci
 */
-$_COLLATE  = 'utf8mb4_unicode_ci';
+$_COLLATE  = '';
 /**
 *   Find Database
 */
