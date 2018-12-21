@@ -10,9 +10,9 @@ include_once "__connection.php" ;
 /**
 *	WHERE 
 */
-$where = ['id' => 1];
+$row = ['id' => 1];
 
 /**
 *	PREPARE AND EXECUTE
 */
-$__CON->prepare("DELETE FROM phpDB WHERE id=:id")->execute($where);
+$__CON->prepare("DELETE FROM phpDB WHERE id=:id")->execute($row);

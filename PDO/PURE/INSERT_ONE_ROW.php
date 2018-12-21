@@ -26,7 +26,7 @@ $sql    = "INSERT INTO phpDB SET s1=:s1 , s2=:s2 , s3=:s3 , s4=:s4 , s5=:s5 ,s6=
 $statement = $__CON -> prepare($sql) -> execute($row);     
 
 /**
-*   GET INSERT ID
+*   GET LAST INSERT ID
 */
 if ($statement) {
     $__id = $__CON->lastInsertId();

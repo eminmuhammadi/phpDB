@@ -12,15 +12,19 @@ $__PASSWORD = '';
 /**
 * 	@example $__CHARSET=utf8mb4
 */
-$__CHARSET  = ''; 
+$__CHARSET  = 'utf8mb4'; 
 /**
-* 	@example $_COLLATE=utf8mb4_unicode_ci
+* 	@example $__COLLATE=utf8mb4_unicode_ci
 */
-$_COLLATE  = '';
+$__COLLATE  = 'utf8mb4_unicode_ci';
+/**
+* 	@example $__PORT=3306
+*/
+$__PORT    = '3306';
 /**
 *   Find Database
 */
-$__FIND = "mysql:host=$__HOSTNAME;dbname=$__DATABASE;charset=$__CHARSET";
+$__FIND = "mysql:host=$__HOSTNAME;dbname=$__DATABASE;charset=$__CHARSET;port=$__PORT;";
 /**
 *	Options
 */
@@ -29,7 +33,7 @@ $__OPTIONS = [
     PDO::ATTR_PERSISTENT => false,
     PDO::ATTR_EMULATE_PREPARES => false,
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-    PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES $__CHARSET COLLATE $_COLLATE"
+    PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES $__CHARSET COLLATE $__COLLATE"
 ];
 /**
 *	Database Connection		
@@ -40,5 +44,5 @@ try {
 } 
 
 catch (PDOException $__ERROR) {
-    	echo 'CONNECTION FAILED : [ERROR]---'. $__ERROR->getMessage().'---[/ERROR]';
+    	die('CONNECTION FAILED : [ERROR]---'. $__ERROR->getMessage().'---[/ERROR]');
 }
