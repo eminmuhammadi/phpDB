@@ -13,20 +13,20 @@ class phpDB{
 /**
 *	@example __HOSTNAME database hostname
 */
-private $__HOSTNAME = "localhost";
+private $__HOSTNAME = "";
 
 /**
 *	@example __DATABASE database name
 */
-private $__DATABASE = "pdo";
+private $__DATABASE = "";
 /**
 *	@example __USERNAME database username
 */
-private $__USERNAME = "emiga";
+private $__USERNAME = "";
 /**
 *	@example __PASSWORD database password
 */
-private $__PASSWORD = "emiga";
+private $__PASSWORD = "";
 /**
 *	@example __DATABASE port 
 *			 DEFAULT MYSQL PORT = 3306
