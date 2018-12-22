@@ -10,18 +10,18 @@
 class phpDB{
 
 /**
-*	@example __HOST database hostname
+*	@example __HOSTNAME database hostname
 */
-private $__HOST     = "";
+private $__HOSTNAME = "";
 
 /**
 *	@example __DATABASE database name
 */
 private $__DATABASE = "";
 /**
-*	@example __USER database username
+*	@example __USERNAME database username
 */
-private $__USER     = "";
+private $__USERNAME = "";
 /**
 *	@example __PASSWORD database password
 */
@@ -57,7 +57,7 @@ public function __construct(){
    *	Find Database and Establish connection
    */
    try {
-   	     $this->__CON = new PDO("mysql:host=".$this->__HOST.";port=".$this->__PORT.";dbname=".$this->   __DATABASE.";charset=utf8mb4",$this->__USER,$this->__PASSWORD,$this->__OPTIONS);
+   	     $this->__CON = new PDO("mysql:host=".$this->__HOSTNAME.";port=".$this->__PORT.";dbname=".$this->__DATABASE.";charset=utf8mb4",$this->__USERNAME,$this->__PASSWORD,$this->__OPTIONS);
    	}
    /**
    *	Error Message
@@ -122,16 +122,16 @@ public function phpDB_select($limit) {
         	*/	
       				 while($row=$sql->fetch()){
  						echo "<table>
- 									<tr>
- 		   					  			<td>".$row['id']."</td>
- 		   								<td>".$row['s1']."</td>
+ 									    <tr>
+ 		   					  			  <td>".$row['id']."</td>
+ 		   								    <td>".$row['s1']."</td>
           								<td>".$row['s2']."</td>
            								<td>".$row['s3']."</td>
            								<td>".$row['s4']."</td>
            								<td>".$row['s5']."</td>
            								<td>".$row['s6']."</td>
       								</tr>
-      						  </table>"; 
+      						</table>"; 
       				 }
       			return true;
       		}
@@ -164,16 +164,16 @@ public function phpDB_selectID($id) {
         			 */	      			
       				 while($row=$sql->fetch()){
  						echo "<table>
- 									<tr>
- 		   					  			<td>".$row['id']."</td>
- 		   								<td>".$row['s1']."</td>
+ 									    <tr>
+ 		   					  			  <td>".$row['id']."</td>
+ 		   								    <td>".$row['s1']."</td>
           								<td>".$row['s2']."</td>
            								<td>".$row['s3']."</td>
            								<td>".$row['s4']."</td>
            								<td>".$row['s5']."</td>
            								<td>".$row['s6']."</td>
       								</tr>
-      						  </table>"; 
+      						</table>"; 
       				 }
       			return true;	 
       		}
@@ -243,7 +243,7 @@ public function phpDB_update($id,$s1,$s2,$s3,$s4,$s5,$s6){
 
 
 /**
-*	Execute SQL
+*	Execute Any SQL
 */
 public function phpDB_execute($sql){
         /**
