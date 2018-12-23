@@ -84,6 +84,10 @@ $param=[
           "s6"=>" "
 ];
 ```
+##### Response `(400 - Bad Request)`
+```json
+{"status":400,"message":"Variables have not been selected completely","id":"null","s1":"null","s2":"null","s3":"null","s4":"null","s5":"null","s6":"null"}
+```
 ### Client Decode API
 ```php
 $param=[];
