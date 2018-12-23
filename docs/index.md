@@ -1,5 +1,5 @@
-# phpDB - phpDB - Database Scripts for php such as PDO , API , MYSQLI (OOP and PURE options included)
-
+# Documentation for phpDB
+phpDB - Database Scripts for php such as PDO , API , MYSQLI (OOP and PURE options included)
 # phpDB/API
 ##### php Database Scripts for API  
 ## File source
