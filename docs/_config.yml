@@ -1,16 +1,2 @@
-name: phpDB - Database Scripts for php
-tagline: phpDB/API , phpDB/PDO , phpDB/MYSQLI documentation page for phpDB
-locale:       "en"
-
-author:
-  name:       Emin Muhammadi
-  url:        https://github.com/eminmuhammadi
-  
-footer-links:
-  email: muemin17631@sabah.edu.az
-  facebook: emiga.mohammadi
-  github: eminmuhammadi/phpDB
-  instagram: @_emiga_
-    
 theme: jekyll-theme-cayman
 show_downloads: true
