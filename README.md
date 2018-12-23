@@ -6,9 +6,9 @@ git clone https://github.com/eminmuhammadi/phpDB.git
 ```
 ## Documentation
 [https://eminmuhammadi.github.io/phpDB/](https://eminmuhammadi.github.io/phpDB/ "phpDB Documentation") - For Documentation page visit this link
-⋅⋅* phpDB/API
-⋅⋅* phpDB/PDO
-⋅⋅* phpDB/MYSQLI 
+- phpDB/API
+- phpDB/PDO
+- phpDB/MYSQLI
 ## Authors
 * **Emin Muhammadi** - *Initial work* - [EminMuhammadi](https://github.com/eminmuhammadi)
 See also the list of [contributors](https://github.com/eminmuhammadi/phpDB/contributors) who participated in this project.
