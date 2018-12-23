@@ -84,7 +84,7 @@ $param=[
           "s6"=>" "
 ];
 ```
-If key(s) and value(s) have not given corrected  
+If key(s) and value(s) have not given correct 
 ##### Response `(400 - Bad Request)`
 ```json
 {"status":400,"message":"Variables have not been selected completely","id":"null","s1":"null","s2":"null","s3":"null","s4":"null","s5":"null","s6":"null"}
