@@ -10,7 +10,7 @@ $param=[
 ];
 $curl = curl_init();
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "http://127.0.70.1/API/api.php?s1=".$param['s1']."&s2=".$param['s2']."&s3=".$param['s3']."&s4=".$param['s4']."&s5=".$param['s5']."&s6=".$param['s6'],
+  CURLOPT_URL => "http://127.0.0.1/API/api.php?s1=".$param['s1']."&s2=".$param['s2']."&s3=".$param['s3']."&s4=".$param['s4']."&s5=".$param['s5']."&s6=".$param['s6'],
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "gzip",
   CURLOPT_MAXREDIRS => 10,
