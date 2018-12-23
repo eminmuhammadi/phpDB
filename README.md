@@ -15,4 +15,4 @@ git clone https://github.com/eminmuhammadi/phpDB.git
 
 See also the list of [contributors](https://github.com/eminmuhammadi/phpDB/contributors) who participated in this project.
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
