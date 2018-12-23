@@ -102,6 +102,10 @@ curl_setopt_array($curl, array(
   CURLOPT_SSL_VERIFYPEER => 0,
   CURLOPT_TIMEOUT => 30,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  /**
+  *     Change {METHOD} 
+  *     @example GET / PUT / DELETE / POST
+  */
   CURLOPT_CUSTOMREQUEST => "{METHOD}",
 ));
 $response = curl_exec($curl);
