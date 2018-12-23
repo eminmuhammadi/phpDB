@@ -1,5 +1,4 @@
-# # phpDB/API
-___
+# phpDB/API
 ##### php Database Scripts for API  
 ## File source
 ```
