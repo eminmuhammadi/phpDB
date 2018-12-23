@@ -1,5 +1,4 @@
 # phpDB/MYSQLI
-___
 ##### php Database Scripts for MYSQLI  
 ## File source
 ```
