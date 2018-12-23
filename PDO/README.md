@@ -16,7 +16,7 @@ When building PDO as a shared extension (not recommended) then all PDO drivers m
 ```
 extension=pdo.so
 ```
-###Windows users
+### Windows users
 1. PDO and all the major drivers ship with PHP as shared extensions, and simply need to be activated by editing the `php.ini` file:
 ```
 extension=php_pdo.dll
