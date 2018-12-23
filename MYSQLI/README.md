@@ -2,7 +2,7 @@
 ##### php Database Scripts for MYSQLI  
 ## File source
 ```
-=|  + PDO
+=|  + MYSQLI
     =| + OOP 
     =| + PURE
     =| - README.md
