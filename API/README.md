@@ -89,11 +89,21 @@ If key(s) and value(s) have not given correct
 ```json
 {"status":400,"message":"Variables have not been selected completely","id":"null","s1":"null","s2":"null","s3":"null","s4":"null","s5":"null","s6":"null"}
 ```
+
 ### Client Decode API
 ```php
+/**
+*     For GET 
+*     @example $param['id'=>'1'];
+*/
 $param=[];
 $curl = curl_init();
 curl_setopt_array($curl, array(
+/**
+*     For GET 
+*     CURLOPT_URL => "http://127.0.0.1/API/api.php?id=".$param['id'],
+*     This url for demo purposes
+*/
   CURLOPT_URL => "http://127.0.0.1/API/api.php?s1=".$param['s1']."&s2=".$param['s2']."&s3=".$param['s3']."&s4=".$param['s4']."&s5=".$param['s5']."&s6=".$param['s6'],
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "gzip",
