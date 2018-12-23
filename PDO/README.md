@@ -1,5 +1,4 @@
 # phpDB/PDO
-___
 ##### php Database Scripts for PDO  
 ## File source
 ```
