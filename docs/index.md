@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/docs/phpDB.png">
+  <img src="phpDB.png">
 </p>
 
 <p align="center">
