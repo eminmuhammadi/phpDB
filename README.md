@@ -2,6 +2,10 @@
   <img src="/docs/phpDB.png">
 </p>
 
+<p align="center">
+[![HitCount](http://hits.dwyl.io/eminmuhammadi/phpDB.svg)](http://hits.dwyl.io/eminmuhammadi/phpDB)
+[![GitHub license](https://img.shields.io/github/license/eminmuhammadi/phpDB.svg)](https://github.com/eminmuhammadi/emiga_ImageFramework/blob/master/LICENSE)  
+</p>
 
 <p align="center">
   phpDB - Database Scripts for php such as PDO , API , MYSQLI (OOP and PURE options included)
