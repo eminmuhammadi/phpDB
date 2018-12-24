@@ -2,8 +2,12 @@
   <img src="/docs/phpDB.png">
 </p>
 
-[![HitCount](http://hits.dwyl.io/eminmuhammadi/phpDB.svg)](http://hits.dwyl.io/eminmuhammadi/phpDB)
-[![GitHub license](https://img.shields.io/github/license/eminmuhammadi/phpDB.svg)](https://github.com/eminmuhammadi/phpDB/blob/master/LICENSE)  
+<p align="center">
+    <a href="https://github.com/eminmuhammadi/phpDB/blob/master/LICENSE" alt="HITS">
+        <img src="http://hits.dwyl.io/eminmuhammadi/phpDB.svg" /></a>
+    <a href="http://hits.dwyl.io/eminmuhammadi/phpDB" alt="LICENSE">
+        <img src="https://img.shields.io/github/license/eminmuhammadi/phpDB.svg" /></a>  
+</p>  
 
 <p align="center">
   phpDB - Database Scripts for php such as PDO , API , MYSQLI (OOP and PURE options included)
