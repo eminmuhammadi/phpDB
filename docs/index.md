@@ -117,6 +117,7 @@ curl_setopt_array($curl, array(
   /**
   *     Change {METHOD} 
   *     @example GET / PUT / DELETE / POST
+  *     @example {METHOD} => GET
   */
   CURLOPT_CUSTOMREQUEST => "{METHOD}",
 ));
