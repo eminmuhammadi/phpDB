@@ -89,7 +89,7 @@ $param=[
 If key(s) and value(s) have not given correct 
 ##### Response `(400 - Bad Request)`
 ```json
-{"status":400,"message":"Variables have not been selected completely","id":"null","s1":"null","s2":"null","s3":"null","s4":"null","s5":"null","s6":"null"}
+{"status":400,"message":"Variables have not been selected completely","id":null,"s1":null,"s2":null,"s3":null,"s4":null,"s5":null,"s6":null}
 ```
 
 ### Client Decode API
@@ -162,6 +162,49 @@ extension=php_pdo_sqlite.dll
 ```
 These DLLs should exist in the system's _extension_dir_.
 *Note:* Remember that after making changes to your php.ini file you will need to restart PHP for your new configuration directives to take effect.
+# phpDB/PDO/OOP/
+
+## Configure phpDB.class.php
+```php
+private $__HOSTNAME = '';
+private $__DATABASE = '';
+private $__USERNAME = '';
+private $__PASSWORD = ''
+```
+## Configure SQL
+```sql
+
+CREATE TABLE IF NOT EXISTS phpDB (
+  id INT(8) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+	s1 VARCHAR(32) NULL,
+	s2 VARCHAR(32) NULL,
+	s3 VARCHAR(32) NULL,
+	s4 VARCHAR(32) NULL,
+	s5 VARCHAR(32) NULL,
+	s6 VARCHAR(32) NULL)
+```
+# phpDB/PDO/PURE/
+
+## Configure __connection.php
+```php
+$__HOSTNAME = '';
+$__DATABASE = '';
+$__USERNAME = '';
+$__PASSWORD = ''
+```
+## Configure SQL
+```sql
+
+CREATE TABLE IF NOT EXISTS phpDB (
+  id INT(8) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+	s1 VARCHAR(32) NULL,
+	s2 VARCHAR(32) NULL,
+	s3 VARCHAR(32) NULL,
+	s4 VARCHAR(32) NULL,
+	s5 VARCHAR(32) NULL,
+	s6 VARCHAR(32) NULL)
+```
+
 # phpDB/MYSQLI
 ##### php Database Scripts for MYSQLI  
 ## File source
@@ -197,3 +240,45 @@ Also, if you want to use the MySQL Client Library with mysqli, you need to make 
 
 As with enabling any PHP extension (such as php_mysqli.dll), the PHP directive extension_dir should be set to the directory where the PHP extensions are located. See also the Manual Windows Installation Instructions. An example extension_dir value for PHP 5 is c:\php\ext.
 *Note:* If when starting the web server an error similar to the following occurs: "Unable to load dynamic library './php_mysqli.dll'", this is because php_mysqli.dll and/or libmysql.dll cannot be found by the system.
+# phpDB/MYSQLI/OOP/
+
+## Configure phpDB.class.php
+```php
+private $__HOSTNAME = '';
+private $__DATABASE = '';
+private $__USERNAME = '';
+private $__PASSWORD = ''
+```
+## Configure SQL
+```sql
+
+CREATE TABLE IF NOT EXISTS phpDB (
+  id INT(8) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+	s1 VARCHAR(32) NULL,
+	s2 VARCHAR(32) NULL,
+	s3 VARCHAR(32) NULL,
+	s4 VARCHAR(32) NULL,
+	s5 VARCHAR(32) NULL,
+	s6 VARCHAR(32) NULL)
+```
+# phpDB/MYSQLI/PURE/
+
+## Configure __connection.php
+```php
+$__HOSTNAME = '';
+$__DATABASE = '';
+$__USERNAME = '';
+$__PASSWORD = ''
+```
+## Configure SQL
+```sql
+
+CREATE TABLE IF NOT EXISTS phpDB (
+  id INT(8) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+	s1 VARCHAR(32) NULL,
+	s2 VARCHAR(32) NULL,
+	s3 VARCHAR(32) NULL,
+	s4 VARCHAR(32) NULL,
+	s5 VARCHAR(32) NULL,
+	s6 VARCHAR(32) NULL)
+```
