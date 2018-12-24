@@ -1,3 +1,15 @@
+<p align="center">
+  <img src="/docs/phpDB.png">
+</p>
+
+<p align="center">
+    <a href="https://github.com/eminmuhammadi/phpDB/blob/master/LICENSE" alt="HITS">
+        <img src="http://hits.dwyl.io/eminmuhammadi/phpDB.svg" /></a>
+    <a href="http://hits.dwyl.io/eminmuhammadi/phpDB" alt="LICENSE">
+        <img src="https://img.shields.io/github/license/eminmuhammadi/phpDB.svg" /></a>  
+</p>  
+
+
 # Documentation for phpDB
 phpDB - Database Scripts for php such as PDO , API , MYSQLI (OOP and PURE options included)
 # phpDB/API
