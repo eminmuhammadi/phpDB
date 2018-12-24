@@ -5,7 +5,7 @@
 <p align="center">
     <a href="https://github.com/eminmuhammadi/phpDB/blob/master/LICENSE" alt="HITS">
         <img src="http://hits.dwyl.io/eminmuhammadi/phpDB.svg" /></a>
-    <a href="http://hits.dwyl.io/eminmuhammadi/phpDB" alt="LICENSE">
+    <a href="/LICENSE" alt="LICENSE">
         <img src="https://img.shields.io/github/license/eminmuhammadi/phpDB.svg" /></a>  
 </p>  
 
