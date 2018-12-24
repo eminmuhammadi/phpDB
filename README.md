@@ -1,3 +1,6 @@
+<p align="center">
+  <img width="460" height="300" src="/docs/phpDB.png">
+</p>
 # phpDB
 phpDB - Database Scripts for php such as PDO , API , MYSQLI (OOP and PURE options included)
 ## Installing
