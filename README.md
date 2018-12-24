@@ -1,10 +1,8 @@
 <p align="center">
   <img src="/docs/phpDB.png">
+  
+  phpDB - Database Scripts for php such as PDO , API , MYSQLI (OOP and PURE options included)
 </p>
-
-
-# phpDB
-phpDB - Database Scripts for php such as PDO , API , MYSQLI (OOP and PURE options included)
 ## Installing
 ```shell
 git clone https://github.com/eminmuhammadi/phpDB.git
